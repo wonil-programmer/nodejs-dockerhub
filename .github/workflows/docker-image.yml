@@ -27,4 +27,4 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: wonil/nodejs-github-action:${{ env.CURRENT_TIME }}
+        tags: riverducker/nodejs-github-action:${{ env.CURRENT_TIME }}
